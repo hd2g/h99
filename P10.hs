@@ -1,11 +1,7 @@
-module P10 where
+module P10 (encode) where
 
 import Prelude hiding (encode)
-
-pack :: [Char] -> [String]
-pack [] = []
-pack (x : xs) = (x : ys) : pack zs where
-  (ys, zs) = span (== x) xs
+import P09 (pack)
 
 -- |
 -- >>> encode "aaaabccaadeeee"

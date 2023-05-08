@@ -1,3 +1,5 @@
+module P09 (pack) where
+
 import Prelude hiding (pack)
 -- |
 -- >>> pack ['a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e']
