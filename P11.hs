@@ -1,4 +1,4 @@
-module P11 (encodeModified) where
+module P11 where
 
 import P10 (encode)
 
