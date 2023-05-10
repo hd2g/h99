@@ -1,3 +1,5 @@
+module P23 where
+
 import System.Random (randomRIO)
 
 rndSelect :: [a] -> Int -> IO [a]
