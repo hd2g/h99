@@ -1,3 +1,4 @@
+module P20 where
 -- |
 -- >>> removeAt 2 "abcd"
 -- ('b',"acd")
